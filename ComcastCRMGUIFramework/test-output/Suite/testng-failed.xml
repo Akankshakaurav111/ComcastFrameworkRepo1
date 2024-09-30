@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Test2(failed)">
+    <classes>
+      <class name="com.comcast.crm.practiceBatchExeTest.Demo2Test">
+        <methods>
+          <include name="configAM"/>
+          <include name="createF"/>
+          <include name="configBM"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- com.comcast.crm.practiceBatchExeTest.Demo2Test -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="com.comcast.crm.practiceBatchExeTest.Demo1Test">
+      <methods>
+		  <include name="createC"></include>
+	  </methods>
+      </class>
+      <class name="com.comcast.crm.practiceBatchExeTest.Demo3Test">
+		  <methods>
+		  <include name="createI"></include>
+	  </methods>
+      </class>
+      <class name="com.comcast.crm.practiceBatchExeTest.Demo2Test">
+		   <methods>
+		  <include name="createE"></include>
+	  </methods>
+	   </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

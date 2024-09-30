@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-28T13:17:05 IST" name="Default suite" finished-at="2024-09-28T13:17:30 IST" duration-ms="24924">
+    <groups>
+    </groups>
+    <test started-at="2024-09-28T13:17:05 IST" name="Default test" finished-at="2024-09-28T13:17:30 IST" duration-ms="24924">
+      <class name="com.comcast.crm.orgTest.CreateOrgnisationTestTc_01">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgTest.CreateOrgnisationTestTc_01@7dcf94f8]" started-at="2024-09-28T13:17:05 IST" name="configBS" finished-at="2024-09-28T13:17:05 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgTest.CreateOrgnisationTestTc_01@7dcf94f8]" started-at="2024-09-28T13:17:05 IST" name="configBC" finished-at="2024-09-28T13:17:08 IST" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgTest.CreateOrgnisationTestTc_01@7dcf94f8]" started-at="2024-09-28T13:17:08 IST" name="configBM" finished-at="2024-09-28T13:17:12 IST" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithindustry()[pri:0, instance:com.comcast.crm.orgTest.CreateOrgnisationTestTc_01@7dcf94f8]" started-at="2024-09-28T13:17:12 IST" name="createOrgWithindustry" finished-at="2024-09-28T13:17:27 IST" duration-ms="15136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithindustry -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgTest.CreateOrgnisationTestTc_01@7dcf94f8]" started-at="2024-09-28T13:17:27 IST" name="configAM" finished-at="2024-09-28T13:17:29 IST" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgTest.CreateOrgnisationTestTc_01@7dcf94f8]" started-at="2024-09-28T13:17:29 IST" name="configAC" finished-at="2024-09-28T13:17:30 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgTest.CreateOrgnisationTestTc_01@7dcf94f8]" started-at="2024-09-28T13:17:30 IST" name="configAS" finished-at="2024-09-28T13:17:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.orgTest.CreateOrgnisationTestTc_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

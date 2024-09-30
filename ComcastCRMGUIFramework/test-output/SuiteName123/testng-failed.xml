@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName123]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.comcast.crm.listenerutility.ItestListnerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test12345(failed)">
+    <classes>
+      <class name="practice.listener.InvoiceTestSuiteLevel">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="createInvoiceTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- practice.listener.InvoiceTestSuiteLevel -->
+    </classes>
+  </test> <!-- Test12345(failed) -->
+</suite> <!-- Failed suite [SuiteName123] -->
